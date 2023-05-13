@@ -1,10 +1,15 @@
 let score = 0;
 const images = [
-    { url: "img/Image_1.jpeg", isGeneratedByAI: false },
-    { url: "img/Image_2.jpeg", isGeneratedByAI: false },
-    { url: "img/Image_3.jpeg", isGeneratedByAI: false },
-    { url: "img/Image_4.jpeg", isGeneratedByAI: false },
-    { url: "img/Image_5.jpeg", isGeneratedByAI: false },
+    { url: "img/Image_1.jpeg", isGeneratedByAI: true },
+    { url: "img/image_2.jpeg", isGeneratedByAI: true },
+    { url: "img/image_3.jpeg", isGeneratedByAI: true },
+    { url: "img/image_4.jpeg", isGeneratedByAI: true },
+    { url: "img/image_5.jpeg", isGeneratedByAI: true },
+    { url: "img/Image_6.jpeg", isGeneratedByAI: true },
+    { url: "img/image_7.jpeg", isGeneratedByAI: true },
+    { url: "img/image_8.jpeg", isGeneratedByAI: true },
+    { url: "img/image_9.jpeg", isGeneratedByAI: true },
+    { url: "img/image_10.jpeg", isGeneratedByAI: true },
     // Add more images as needed
 ];
 
