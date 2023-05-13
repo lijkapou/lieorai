@@ -6,10 +6,16 @@ const images = [
     { url: "img/image_4.jpeg", isGeneratedByAI: true },
     { url: "img/image_5.jpeg", isGeneratedByAI: true },
     { url: "img/Image_6.jpeg", isGeneratedByAI: true },
-    { url: "img/image_7.jpeg", isGeneratedByAI: true },
-    { url: "img/image_8.jpeg", isGeneratedByAI: true },
-    { url: "img/image_9.jpeg", isGeneratedByAI: true },
-    { url: "img/image_10.jpeg", isGeneratedByAI: true },
+    { url: "img/image_7.png", isGeneratedByAI: true },
+    { url: "img/image_8.png", isGeneratedByAI: true },
+    { url: "img/image_9.png", isGeneratedByAI: true },
+    { url: "img/image_10.png", isGeneratedByAI: true },
+     { url: "img/image_11.png", isGeneratedByAI: true },
+     { url: "img/image_12.png", isGeneratedByAI: true },
+    { url: "img/image_13.png", isGeneratedByAI: true },
+    { url: "img/image_14.png", isGeneratedByAI: true },
+    { url: "img/image_15.png", isGeneratedByAI: true },
+    { url: "img/image_16.png", isGeneratedByAI: true },
     // Add more images as needed
 ];
 
