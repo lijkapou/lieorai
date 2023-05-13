@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#game-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#game-image {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+#game-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#game-form label {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#game-form button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#game-form button:hover {
+    background-color: #0059b3;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.matrix-bg {
+    background-color: black;
+    background-image: url("img/matrix-bg.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.game-description {
+    color: rgb(191, 240, 226);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation: 5s anim-lineUp ease-out ;
+  
+}
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
